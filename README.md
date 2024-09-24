@@ -2,12 +2,12 @@
 Fungsi PHP untuk generate nama orang indonesia
 
 # Cara Penggunaan
-Gunakan Command <code>echo $namaIndonesia->generateNamaLengkap()</code> untuk generate nama random
-GUnakan Command <code>echo $namaIndonesia->generateDaftarNama(20, 'random')</code> untuk generate nama random sebanyak 20
-Gunakan Command <code>echo $namaIndonesia->generateNamaLengkap('pria')</code> untuk generate nama pria
-GUnakan Command <code>echo $namaIndonesia->generateDaftarNama(20, 'pria')</code> untuk generate nama pria sebanyak 20
-Gunakan Command <code>echo $namaIndonesia->generateNamaLengkap('wanita')</code> untuk generate nama wanita
-GUnakan Command <code>echo $namaIndonesia->generateDaftarNama(20, 'wanita')</code> untuk generate nama wanita sebanyak 20
+<p>Gunakan Command <code>echo $namaIndonesia->generateNamaLengkap()</code> untuk generate nama random</p>
+<p>Gunakan Command <code>echo $namaIndonesia->generateDaftarNama(20, 'random')</code> untuk generate nama random sebanyak 20</p>
+<p>Gunakan Command <code>echo $namaIndonesia->generateNamaLengkap('pria')</code> untuk generate nama pria</p>
+<p>Gunakan Command <code>echo $namaIndonesia->generateDaftarNama(20, 'pria')</code> untuk generate nama pria sebanyak 20</p>
+<p>Gunakan Command <code>echo $namaIndonesia->generateNamaLengkap('wanita')</code> untuk generate nama wanita</p>
+<p>Gunakan Command <code>echo $namaIndonesia->generateDaftarNama(20, 'wanita')</code> untuk generate nama wanita sebanyak 20</p>
 
 # Let's connect with me!
 <p>
