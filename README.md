@@ -2,12 +2,31 @@
 Fungsi PHP untuk generate nama orang indonesia
 
 # Cara Penggunaan
-<p>Gunakan Command <code>echo $namaIndonesia->generateNamaLengkap()</code> untuk generate nama random</p>
-<p>Gunakan Command <code>echo $namaIndonesia->generateDaftarNama(20, 'random')</code> untuk generate nama random sebanyak 20</p>
-<p>Gunakan Command <code>echo $namaIndonesia->generateNamaLengkap('pria')</code> untuk generate nama pria</p>
-<p>Gunakan Command <code>echo $namaIndonesia->generateDaftarNama(20, 'pria')</code> untuk generate nama pria sebanyak 20</p>
-<p>Gunakan Command <code>echo $namaIndonesia->generateNamaLengkap('wanita')</code> untuk generate nama wanita</p>
-<p>Gunakan Command <code>echo $namaIndonesia->generateDaftarNama(20, 'wanita')</code> untuk generate nama wanita sebanyak 20</p>
+<p>Jalankan Perintah "composer require generator-nama-orang-indonesia" di git / gitbash. setelah itu add vendor/autoload</p>
+<br>
+<code>
+require 'vendor/autoload.php'; // Autoload dari Composer
+
+use GeneratorNama\NamaIndonesia;
+$namaIndonesia = new NamaIndonesia();
+
+// Generate satu nama acak
+$namaAcak = $namaIndonesia->generateNamaLengkap();
+echo "Nama acak: $namaAcak\n";
+
+// Generate satu nama pria
+$namaPria = $namaIndonesia->generateNamaLengkap('pria');
+echo "Nama pria: $namaPria\n";
+
+// Generate satu nama wanita
+$namaWanita = $namaIndonesia->generateNamaLengkap('wanita');
+echo "Nama wanita: $namaWanita\n";
+
+// Generate daftar 20 nama acak
+$daftarNama = $namaIndonesia->generateDaftarNama(20, 'random');
+echo "\nDaftar 20 nama acak:\n";
+echo implode("\n", $daftarNama);
+</code>
 
 # Let's connect with me!
 <p>
