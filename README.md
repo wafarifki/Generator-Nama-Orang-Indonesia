@@ -1,9 +1,17 @@
 # Generator-Nama-Orang-Indonesia
-Fungsi PHP untuk generate nama orang indonesia
+![PHP Version](https://img.shields.io/badge/php-%3E%3D%207.4-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+**Generator Nama Orang Indonesia** adalah library PHP yang memungkinkan Anda untuk menghasilkan nama-nama acak khas Indonesia. Anda dapat memilih nama pria, wanita, atau acak berdasarkan jenis kelamin.
+
+## Fitur
+- Generate nama lengkap pria.
+- Generate nama lengkap wanita.
+- Generate nama acak berdasarkan jenis kelamin.
+- Generate daftar nama dalam jumlah yang diinginkan.
 
 # Cara Penggunaan
 <p>Jalankan Perintah "composer require generator-nama-orang-indonesia" di git / gitbash. setelah itu add vendor/autoload</p>
-<br>
 <code>
 require 'vendor/autoload.php'; // Autoload dari Composer
 
